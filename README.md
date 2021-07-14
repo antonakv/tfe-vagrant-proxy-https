@@ -22,13 +22,13 @@ Tested on Mac OS X.
 - Clone git repository. 
 
 ```bash
-git clone https://github.com/antonakv/tfe-vagrant
+git clone https://github.com/antonakv/tfe-vagrant-proxy
 ```
 
 Expected command output looks like this:
 
 ```bash
-Cloning into 'tfe-vagrant'...
+Cloning into 'tfe-vagrant-proxy'...
 remote: Enumerating objects: 12, done.
 remote: Counting objects: 100% (12/12), done.
 remote: Compressing objects: 100% (12/12), done.
@@ -37,14 +37,14 @@ Receiving objects: 100% (12/12), done.
 Resolving deltas: 100% (1/1), done.
 ```
 
-- Change folder to tfe-vagrant
+- Change folder to tfe-vagrant-proxy
 
 ```bash
-cd tfe-vagrant
+cd tfe-vagrant-proxy
 ```
 
 - Copy your existing Terraform enterprise license file with extension .rli to 
-folder tfe-vagrant created on the previous step and rename it to license.rli
+folder tfe-vagrant-proxy created on the previous step and rename it to license.rli
 
 ## Provisioning
 
