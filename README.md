@@ -138,8 +138,6 @@ Bringing machine 'default' up with 'virtualbox' provider...
 
 ## Usage
 
-Tested in Google Chrome
-
 - In your browser open URL https://192.168.56.33.nip.io:8800/
 
 - Click ```Advanced```
