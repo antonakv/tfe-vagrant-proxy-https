@@ -1,8 +1,8 @@
-# TFE silent online installation using Vagrant
+# Install TFE on Demo version with Self Sign Certificate - proxy with self sign certificate - vagrant
 
 ## Intro
 
-This manual is dedicated to install Terraform Enterprise with online installation type using Vagrant.
+This manual is dedicated to Install TFE on Demo version with Self Sign Certificate - proxy with self sign certificate - vagrant.
 
 Tested on Mac OS X.
 
