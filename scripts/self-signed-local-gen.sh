@@ -24,4 +24,4 @@ EOF
 )
 
 rm 192.168.56.33.nip.io.csr
-rm tfe-vagrant-rootCA-$now.key
+rm tfe-vagrant-rootCA*
