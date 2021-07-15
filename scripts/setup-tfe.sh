@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-export http_proxy=http://192.168.56.32:3128/
-export https_proxy=http://192.168.56.32:3128/ 
+export http_proxy=https://192.168.56.32:3128/
+export https_proxy=https://192.168.56.32:3128/ 
 export no_proxy="127.0.0.1,localhost"
 
 echo "# Removing default GW"
