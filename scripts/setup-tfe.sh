@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+export http_proxy=http://192.168.56.32:3128/ 
+export no_proxy="127.0.0.1,localhost"
+
 echo "# Fixing a repository certificate issue"
 
 apt-get -y install dirmngr gpg-agent
@@ -14,7 +17,7 @@ cp /vagrant/configs/replicated.conf /root/replicated.conf
 
 if [ -f /vagrant/license.rli ]  ; then
   echo "# Running installation script"
-  bash /vagrant/tfe/install.sh no-proxy private-address=192.168.56.33 public-address=192.168.56.33
+  bash /vagrant/tfe/install.sh private-address=192.168.56.33 public-address=192.168.56.33
 else
   echo "# Error, missing /vagrant/license.rli"
   exit 1
