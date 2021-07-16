@@ -2,7 +2,7 @@
 
 ## Intro
 
-This manual is dedicated to Install TFE on Demo version with Self Sign Certificate - proxy with self sign certificate - vagrant.
+This manual is dedicated to Install TFE on Demo version with Self Sign Certificate - http proxy - vagrant.
 
 Tested on Mac OS X.
 
