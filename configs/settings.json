@@ -11,7 +11,9 @@
     "backup_token": {
         "value": "7oAArDQ2tzSSyirzRj2GPPSTDTHQCWz8"
     },
-    "ca_certs": {},
+    "ca_certs": {
+        "value": "/etc/ssl/certs/ca-certificates.crt"
+    },
     "capacity_concurrency": {
         "value": "10"
     },
