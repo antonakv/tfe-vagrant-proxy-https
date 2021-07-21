@@ -7,8 +7,12 @@ curl -v --proxy http://192.168.56.32:8080 -o proxy.pem http://mitm.it/cert/pem
 chown vagrant: proxy.pem
 cp proxy.pem /usr/local/share/ca-certificates/proxy.crt
 update-ca-certificates
+ 
 
 export HTTPS_PROXY=http://192.168.56.32:8080/ 
+export HTTP_PROXY=http://192.168.56.32:8080/ 
+export https_proxy=http://192.168.56.32:8080/ 
+export http_proxy=http://192.168.56.32:8080/ 
 export NO_PROXY="127.0.0.1,localhost"
 export DEBIAN_FRONTEND=noninteractive
 export CURL_CA_BUNDLE=/home/vagrant/proxy.pem
