@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
     proxy.vm.network "private_network", ip: "192.168.56.32"
     proxy.vm.define "proxy"
     proxy.vm.provision "shell", path: "scripts/self-signed-local-gen-proxy.sh", privileged: false
-    proxy.vm.provision "shell", path: "scripts/setup-squid.sh"
+    proxy.vm.provision "shell", path: "scripts/setup-proxy.sh"
   end
 
   config.vm.define "tfe" do |tfe|
